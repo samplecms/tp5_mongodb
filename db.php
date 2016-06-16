@@ -1,4 +1,4 @@
-<?php  namespace tp\mongo\db;
+<?php  namespace tp\mongo;
 use tp\helpers\arr;
 
 /*
@@ -9,7 +9,7 @@ use tp\helpers\arr;
  * 如有问题请在微博中 @太极拳那点事儿 http://weibo.com/sunkangchina
  */
 
-class  mongo{
+class  db{
 	protected $db;
 	protected $collection;
 	
